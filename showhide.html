@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <link rel="stylesheet" href="showhide.css"/>
-    <script src="showhide.js"></script>
 
 </head>
 
@@ -19,7 +18,6 @@
     <div class="jumbotron">
         <!-- This table will hold the target(s) -->
         <table>
-            <h1>Catching Nemo</h1>
             <tr>
                 <td id="td1"></td>
                 <td id="td2"></td>
@@ -86,20 +84,16 @@
 
         <!-- Setup some basic controls to get number of # targets, display time -->
         <p>
-            <label for="numberOfTargets">Number of Targets:</label>
-            <input id="numberOfTargets" type="text"/>
+            <!--<label for="numberOfTargets">Number of Targets:</label>-->
+            <!--<input id="numberOfTargets" type="text"/>-->
 
-            <label for="displayTime">TargetDisplay Time (ms):</label>
-            <input id="displayTime" type="text"/>
+            <!--<label for="displayTime">TargetDisplay Time (ms):</label>-->
+            <!--<input id="displayTime" type="text"/>-->
 
             <button class="btn btn-primary" id="goGetIt">GO!</button>
         </p>
-
-        <script>
-
-<!-- Kick off the game -->
-            letsRock();
-        </script>
+<script src="showhide.js"></script>
+    <script>letsRock();</script>
     </div>
 </body>
 </html>
