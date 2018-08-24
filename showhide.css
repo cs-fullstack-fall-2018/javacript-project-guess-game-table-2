@@ -1,11 +1,12 @@
 table {
     /* Use whatever background image (or images) you like */
-    background: url("forest-background.jpg") no-repeat;
+    background: url("reef.png") no-repeat;
     table-layout: fixed;
+    ;
 }
 
 /* Set each td size */
 td {
-    width: 100px;
+    width: 150px;
     height: 100px;
 }

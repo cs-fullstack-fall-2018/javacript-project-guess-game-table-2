@@ -12,6 +12,7 @@ function letsRock() {
         setUpTargetsAndPlay(targetKount, targetTime);
     };
 }
+
 // Utility function to get a random table cell number
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -52,7 +53,7 @@ function setUpTargetsAndPlay(numberOfTargets, displayTimeMs) {
         var tdID = "td" + targetNum;
         var imgID = "img" + targetNum;
 
-        $('#' + tdID).on("click", clickedTarget).append("<img id = " + imgID + " class= 'targetImg' src='bird.png'>");
+        $('#' + tdID).on("click", clickedTarget).append("<img id = " + imgID + " class= 'targetImg' src='nemo1.png'>");
         $('#' + imgID).delay(2000).show(0);
         $('#' + imgID).delay(displayTimeMs).hide(0);
     }
