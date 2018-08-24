@@ -5,11 +5,14 @@ var targetKount = 1;
 var theGo = document.getElementById("goGetIt");
 const targetTime = 2000;
 var timeOut;
+var goBttn = new Audio();
+goBttn.src = "fish.mp3";
 
 function letsRock() {
 
     theGo.onclick = function () {
         // No start the game!
+        goBttn.play();
         setUpTargetsAndPlay(targetKount, targetTime);
         theGo.disabled = true;
         timesUp();
@@ -22,7 +25,7 @@ function timesUp() {
     timeOut = setTimeout(function () {
         theGo.disabled = false;
         alert('Time is Up')
-    },5000);
+    },15000);
 }
 
 function clearTime() {
