@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show/Hide Game</title>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="showhide.css"/>
+    <script src="showhide.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+
+    <div class="jumbotron">
+        <!-- This table will hold the target(s) -->
+        <table>
+            <tr>
+                <td id="td1"></td>
+                <td id="td2"></td>
+                <td id="td3"></td>
+                <td id="td4"></td>
+                <td id="td5"></td>
+                <td id="td6"></td>
+                <td id="td7"></td>
+                <td id="td8"></td>
+                <td id="td9"></td>
+                <td id="td10"></td>
+            </tr>
+            <tr>
+                <td id="td11"></td>
+                <td id="td12"></td>
+                <td id="td13"></td>
+                <td id="td14"></td>
+                <td id="td15"></td>
+                <td id="td16"></td>
+                <td id="td17"></td>
+                <td id="td18"></td>
+                <td id="td19"></td>
+                <td id="td20"></td>
+            </tr>
+            <tr>
+                <td id="td21"></td>
+                <td id="td22"></td>
+                <td id="td23"></td>
+                <td id="td24"></td>
+                <td id="td25"></td>
+                <td id="td26"></td>
+                <td id="td27"></td>
+                <td id="td28"></td>
+                <td id="td29"></td>
+                <td id="td30"></td>
+            </tr>
+            <tr>
+                <td id="td31"></td>
+                <td id="td32"></td>
+                <td id="td33"></td>
+                <td id="td34"></td>
+                <td id="td35"></td>
+                <td id="td36"></td>
+                <td id="td37"></td>
+                <td id="td38"></td>
+                <td id="td39"></td>
+                <td id="td40"></td>
+            </tr>
+            <tr>
+                <td id="td41"></td>
+                <td id="td42"></td>
+                <td id="td43"></td>
+                <td id="td44"></td>
+                <td id="td45"></td>
+                <td id="td46"></td>
+                <td id="td47"></td>
+                <td id="td48"></td>
+                <td id="td49"></td>
+                <td id="td50"></td>
+            </tr>
+
+        </table>
+    </div>
+
+        <!-- Setup some basic controls to get number of # targets, display time -->
+        <p>
+            <label for="numberOfTargets">Number of Targets:</label>
+            <input id="numberOfTargets" type="text"/>
+
+            <label for="displayTime">TargetDisplay Time (ms):</label>
+            <input id="displayTime" type="text"/>
+
+            <button class="btn btn-primary" id="goGetIt">GO!</button>
+        </p>
+
+        <script>
+
+<!-- Kick off the game -->
+            letsRock();
+        </script>
+    </div>
+</body>
+</html>
